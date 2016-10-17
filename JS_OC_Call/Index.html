@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>JS调用OC代码</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script>
+            //alert(111);
+            function jsCallOc(){
+                alert("oc成功调用js的alert()方法!");
+                jsMethodName("第一个参数","第二个参数");
+            }
+        
+        function jsCallOcByObject(){
+            //alert(555);
+            umeng.methodOneParameter("js通过对象调用oc方法唯一的参数");
+            //原oc类方法有2个参数，注意这里的方法名是oc方法标签的拼接。
+            umeng.methodTwoParameterSecondParameter("js通过对象调用oc方法的第1个参数","js通过对象调用oc方法的第2个参数");
+        }
+        </script>
+    </head>
+<body>
+    测试要加载的网页!<br/>
+   <input type="button" onClick="jsCallOc()" value="点击直接调用oc代码"/><br/><p>
+    <input type="button" onClick="jsCallOcByObject()" value="通过对象调用oc代码"/><br/>
+</body>
+</html>

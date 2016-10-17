@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YeJ-6f-dh8">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--js调用oc-->
+        <scene sceneID="Nf3-jj-SeW">
+            <objects>
+                <viewController id="vSG-G8-l1Z" customClass="JSCallOCViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5l9-sU-Esj"/>
+                        <viewControllerLayoutGuide type="bottom" id="hmL-wB-u9G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VYc-3e-241">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="js调用oc" id="9sa-9Y-CdP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mNw-EM-H9I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="200" y="570"/>
+        </scene>
+        <!--oc调用js-->
+        <scene sceneID="veo-KM-ayO">
+            <objects>
+                <viewController id="P2D-tF-QtF" customClass="OCCallJSViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iPC-C6-Sd9"/>
+                        <viewControllerLayoutGuide type="bottom" id="0eA-7Q-8jb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VKg-Vf-DYF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="oc调用js" id="u4o-01-hNh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EsX-1E-HoX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="200" y="-91"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="XV4-GU-Icg">
+            <objects>
+                <tabBarController id="YeJ-6f-dh8" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="oaC-Ef-cfU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="P2D-tF-QtF" kind="relationship" relationship="viewControllers" id="AiU-EB-Ytm"/>
+                        <segue destination="vSG-G8-l1Z" kind="relationship" relationship="viewControllers" id="qff-AB-hZi"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KtY-DL-isE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-620" y="240"/>
+        </scene>
+    </scenes>
+</document>
