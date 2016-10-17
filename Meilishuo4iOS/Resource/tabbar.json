@@ -1,0 +1,36 @@
+[{
+	"icon": "tab_home_normal",
+	"text": "首页",
+	"color": "#999999",
+	"selColor": "#FF5777",
+	"selIcon": "tab_home_highlight",
+	"barName":"home"
+},{
+	"icon": "tab_goods_normal",
+	"text": "购物",
+	"color": "#999999",
+	"selColor": "#FF5777",
+	"selIcon": "tab_goods_highlight",
+    "barName":"goods"
+},{
+	"icon": "tab_photo_normal",
+	"text": "",
+	"color": "#999999",
+	"selColor": "#FF5777",
+	"selIcon": "tab_category_highlight",
+    "barName":"category"
+},{
+	"icon": "tab_message_normal",
+	"text": "消息",
+	"color": "#999999",
+	"selColor": "#FF5777",
+	"selIcon": "tab_message_highlight",
+    "barName":"message"
+},{
+	"icon": "tab_mine_normal",
+	"text": "我",
+	"color": "#999999",
+	"selColor": "#FF5777",
+	"selIcon": "tab_mine_highlight",
+    "barName":"mine"
+}]

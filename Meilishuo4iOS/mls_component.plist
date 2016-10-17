@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>MLSAppComponent</string>
+	<string>MLSAppEntrance</string>
+	<string>MLSUserComponent</string>
+	<string>MLSLoginComponent</string>
+	<string>MLSWebComponent</string>
+	<string>SplashComponent</string>
+	<string>WelcomeComponent</string>
+	<string>MLSHomePageComponent</string>
+	<string>MLSHWComponent</string>
+	<string>MLSClassificationComponent</string>
+	<string>MLSIMComponent</string>
+	<string>MLSMeComponent</string>
+	<string>MLSDailyMailComponent</string>
+	<string>MLSSearchComponent</string>
+	<string>TRADEComponent</string>
+	<string>MLSSKUComponent</string>
+	<string>MLSDetailComponent</string>
+	<string>MGJAddressComponent</string>
+	<string>MLSShareComponent</string>
+	<string>MLSPopupComponent</string>
+	<string>MLSUpdateComponent</string>
+	<string>RedPacketPopupComponent</string>
+	<string>OutsideDetailComponent</string>
+	<string>MLSTopicTagComponent</string>
+	<string>MLSPFComponent</string>
+	<string>MLSShopComponent</string>
+	<string>MGJPhotoCameraPickerComponent</string>
+	<string>MLSPublishComponent</string>
+	<string>MLSEnterHomeNotificationMiddleWareComponent</string>
+	<string>MLSUserGuideComponent</string>
+	<string>MLSBoardComponent</string>
+</array>
+</plist>

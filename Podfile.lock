@@ -1,0 +1,1432 @@
+PODS:
+  - AFgzipRequestSerializer (0.0.2.1):
+    - AFNetworking (~> 2.0)
+    - Godzippa (~> 1.0)
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AppPredefinedEvent-MGJ (0.0.39)
+  - AppPredefinedEvent-MLS (0.0.61)
+  - Aspects (1.4.1.1)
+  - AutoCoding (2.2.1.1)
+  - Base64nl (1.2.0.1)
+  - BlocksKit (2.2.5.1):
+    - BlocksKit/All (= 2.2.5.1)
+  - BlocksKit/All (2.2.5.1):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5.1)
+  - BlocksKit/DynamicDelegate (2.2.5.1)
+  - BlocksKit/MessageUI (2.2.5.1):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5.1):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CalendarPlugin4IOS (1.1.3)
+  - CameraPlugin4IOS (1.1.0)
+  - CHTCollectionViewWaterfallLayout (0.9.2)
+  - CocoaLumberjack (2.0.0):
+    - CocoaLumberjack/Default (= 2.0.0)
+    - CocoaLumberjack/Extensions (= 2.0.0)
+  - CocoaLumberjack/Core (2.0.0)
+  - CocoaLumberjack/Default (2.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0):
+    - CocoaLumberjack/Default
+  - ConfigCenter (0.1.35):
+    - MGJ-Categories
+    - MGJAnalytics
+    - MGJRequestManagerFactory
+    - MGJStorage
+    - MWP-SDK-iOS
+  - ContactPlugin4IOS (1.1.1)
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
+  - DACircularProgress (2.3.1.1)
+  - Fabric (1.6.7)
+  - FDStackView (1.0)
+  - FileMD5Hash (2.0.0.1)
+  - FingerPrint (0.1.14):
+    - AFNetworking (~> 2.5.4)
+  - FMDB (2.6.2.1):
+    - FMDB/common (= 2.6.2.1)
+    - FMDB/SQLCipher (= 2.6.2.1)
+  - FMDB/common (2.6.2.1)
+  - FMDB/SQLCipher (2.6.2.1):
+    - FMDB/common
+    - SQLCipher (~> 3.1.0)
+  - FXBlurView (1.6.4.1)
+  - FXNotifications (1.1.0.1)
+  - Godzippa (1.1.0.1)
+  - GPUImage (0.1.10)
+  - HDP4IOS (1.1.43):
+    - AFNetworking (~> 2.5.0)
+    - CalendarPlugin4IOS (~> 1.1.0)
+    - CameraPlugin4IOS (~> 1.1.0)
+    - ContactPlugin4IOS (~> 1.1.0)
+    - HDPCordova (~> 1.1.0)
+    - SmsPlugin4IOS (~> 1.1.0)
+    - XCore (~> 0.1.0)
+  - HDPCordova (1.1.16)
+  - HMSegmentedControl (1.5.2.1)
+  - HPGrowingTextView (1.1.0.1)
+  - iCarousel (1.8.2.1)
+  - IMiOSUIKit (0.0.27):
+    - DACircularProgress (~> 2.3.1)
+    - IMiOSUIKit/Avatar (= 0.0.27)
+    - IMiOSUIKit/FloatMenu (= 0.0.27)
+    - IMiOSUIKit/GroupedCollectionView (= 0.0.27)
+    - IMiOSUIKit/IMTextLabel (= 0.0.27)
+    - IMiOSUIKit/PhotoPreview (= 0.0.27)
+    - IMiOSUIKit/Process (= 0.0.27)
+    - IMiOSUIKit/PullLoadmore (= 0.0.27)
+    - IMiOSUIKit/SwipCell (= 0.0.27)
+    - SDWebImage (~> 3.7.0)
+    - TTTAttributedLabel
+    - ZXingObjC (~> 3.1.1)
+  - IMiOSUIKit/Avatar (0.0.27):
+    - DACircularProgress (~> 2.3.1)
+    - SDWebImage (~> 3.7.0)
+    - TTTAttributedLabel
+    - ZXingObjC (~> 3.1.1)
+  - IMiOSUIKit/FloatMenu (0.0.27):
+    - DACircularProgress (~> 2.3.1)
+    - SDWebImage (~> 3.7.0)
+    - TTTAttributedLabel
+    - ZXingObjC (~> 3.1.1)
+  - IMiOSUIKit/GroupedCollectionView (0.0.27):
+    - DACircularProgress (~> 2.3.1)
+    - SDWebImage (~> 3.7.0)
+    - TTTAttributedLabel
+    - ZXingObjC (~> 3.1.1)
+  - IMiOSUIKit/IMTextLabel (0.0.27):
+    - DACircularProgress (~> 2.3.1)
+    - SDWebImage (~> 3.7.0)
+    - TTTAttributedLabel
+    - ZXingObjC (~> 3.1.1)
+  - IMiOSUIKit/PhotoPreview (0.0.27):
+    - DACircularProgress (~> 2.3.1)
+    - SDWebImage (~> 3.7.0)
+    - TTTAttributedLabel
+    - ZXingObjC (~> 3.1.1)
+  - IMiOSUIKit/Process (0.0.27):
+    - DACircularProgress (~> 2.3.1)
+    - SDWebImage (~> 3.7.0)
+    - TTTAttributedLabel
+    - ZXingObjC (~> 3.1.1)
+  - IMiOSUIKit/PullLoadmore (0.0.27):
+    - DACircularProgress (~> 2.3.1)
+    - SDWebImage (~> 3.7.0)
+    - TTTAttributedLabel
+    - ZXingObjC (~> 3.1.1)
+  - IMiOSUIKit/SwipCell (0.0.27):
+    - DACircularProgress (~> 2.3.1)
+    - SDWebImage (~> 3.7.0)
+    - TTTAttributedLabel
+    - ZXingObjC (~> 3.1.1)
+  - IMSDK (0.1.17):
+    - AFgzipRequestSerializer (~> 0.0.2)
+    - AFNetworking
+    - FMDB
+    - FMDB/SQLCipher
+    - iOSVoiceKit
+    - KVOController
+    - MGJAnalytics (~> 0.1.0)
+    - MGJSocket (~> 0.1.1)
+    - Objective-LevelDB (~> 2.1.5)
+    - ProtocolBuffers (~> 1.9.4)
+  - INTULocationManager (4.2.0)
+  - iOS_Util_Core (1.1):
+    - libextobjc
+  - iOS_Util_Json (1.2.0):
+    - iOS_Util_Core
+  - iOSVoiceKit (0.0.7)
+  - JSONModel (1.0.2.1)
+  - JSPatch (1.0):
+    - JSPatch/Core (= 1.0)
+  - JSPatch/Core (1.0)
+  - JSPatch/Extensions (1.0):
+    - JSPatch/Core
+  - KLSwitch (1.5)
+  - KVOController (1.0.3.1)
+  - LeCloudPlayerSDK/Whole (0.3.2)
+  - leveldb-library (1.18.2)
+  - libextobjc (0.4.1.1):
+    - libextobjc/EXTADT (= 0.4.1.1)
+    - libextobjc/EXTConcreteProtocol (= 0.4.1.1)
+    - libextobjc/EXTKeyPathCoding (= 0.4.1.1)
+    - libextobjc/EXTNil (= 0.4.1.1)
+    - libextobjc/EXTSafeCategory (= 0.4.1.1)
+    - libextobjc/EXTScope (= 0.4.1.1)
+    - libextobjc/EXTSelectorChecking (= 0.4.1.1)
+    - libextobjc/EXTSynthesize (= 0.4.1.1)
+    - libextobjc/NSInvocation+EXT (= 0.4.1.1)
+    - libextobjc/NSMethodSignature+EXT (= 0.4.1.1)
+    - libextobjc/RuntimeExtensions (= 0.4.1.1)
+    - libextobjc/UmbrellaHeader (= 0.4.1.1)
+  - libextobjc/EXTADT (0.4.1.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4.1.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4.1.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4.1.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4.1.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4.1.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4.1.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4.1.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSInvocation+EXT (0.4.1.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSMethodSignature+EXT (0.4.1.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1.1)
+  - libextobjc/UmbrellaHeader (0.4.1.1)
+  - libwebp (0.4.4.1):
+    - libwebp/core (= 0.4.4.1)
+    - libwebp/dec (= 0.4.4.1)
+    - libwebp/demux (= 0.4.4.1)
+    - libwebp/dsp (= 0.4.4.1)
+    - libwebp/enc (= 0.4.4.1)
+    - libwebp/mux (= 0.4.4.1)
+    - libwebp/utils (= 0.4.4.1)
+    - libwebp/webp (= 0.4.4.1)
+  - libwebp/core (0.4.4.1):
+    - libwebp/webp
+  - libwebp/dec (0.4.4.1):
+    - libwebp/core
+  - libwebp/demux (0.4.4.1):
+    - libwebp/core
+  - libwebp/dsp (0.4.4.1):
+    - libwebp/core
+  - libwebp/enc (0.4.4.1):
+    - libwebp/core
+  - libwebp/mux (0.4.4.1):
+    - libwebp/core
+  - libwebp/utils (0.4.4.1):
+    - libwebp/core
+  - libwebp/webp (0.4.4.1)
+  - LoginFoundationSDK (0.5.28):
+    - MGJ-EBCategories (~> 0.0.1)
+    - MGJSecurity (~> 1.0.8)
+    - MGJToolkit (~> 0.3.238)
+    - MWPAdapter (~> 0.1.21)
+  - MarqueeLabel (2.7.1.1):
+    - MarqueeLabel/ObjC (= 2.7.1.1)
+  - MarqueeLabel/ObjC (2.7.1.1)
+  - Masonry (0.6.4.1)
+  - MBProgressHUD (0.9.2.1)
+  - MGJ-Categories (0.1.253):
+    - MGJ-Categories/Foundation (= 0.1.253)
+    - MGJ-Categories/UIKit (= 0.1.253)
+  - MGJ-Categories/Foundation (0.1.253):
+    - AFNetworking/Reachability
+    - FXNotifications (~> 1.1)
+    - KVOController (~> 1.0.3)
+    - MGJLogger
+    - MGJMacros
+    - SSKeychain (~> 1.2.3)
+  - MGJ-Categories/UIKit (0.1.253)
+  - MGJ-EBCategories (0.0.3):
+    - MGJ-Categories (~> 0.1.252)
+    - MGJLogger (~> 0.1.16)
+    - MGJMacros (~> 0.1.2)
+  - MGJAlertView (0.1.0)
+  - MGJAnalytics (0.1.66):
+    - MGJAnalytics/Base (= 0.1.66)
+    - MGJAnalytics/MTA (= 0.1.66)
+  - MGJAnalytics/Base (0.1.66):
+    - AFgzipRequestSerializer
+    - FingerPrint
+    - MGJ-Categories
+    - MGJBatchRequesterStore
+    - MGJMacros
+  - MGJAnalytics/MTA (0.1.66)
+  - MGJAntiCrash (0.2.22):
+    - AFNetworking (~> 2.5.0)
+    - MGJ-Categories
+    - PLCrashReporter
+  - MGJAppInfo (0.1.2):
+    - MGJ-Categories
+    - MGJLogger
+    - MGJMacros
+  - MGJAreaInfoUtil (0.0.7):
+    - MGJToolkit
+  - MGJAssetsManager (0.1.39):
+    - MGJMacros (~> 0.1.1)
+  - MGJBadgeView (0.1.0):
+    - MGJMacros
+    - MGJUIKit
+  - MGJBaseComponent (0.1.2):
+    - MGJRouter (~> 0.1.0)
+  - MGJBatchRequesterStore (0.1.3)
+  - MGJCrashManager (0.2.1):
+    - AFNetworking (~> 2.5.0)
+    - Crashlytics
+    - Fabric
+    - MGJ-Categories
+    - PLCrashReporter (~> 1.2.1)
+  - MGJEBUIKit (0.0.6):
+    - MGJFoundation
+    - MGJUIKit
+  - MGJEntity (0.1.11):
+    - AutoCoding
+  - MGJFloatLayerViewComponent (0.1.8):
+    - MGJFoundation
+    - MGJImage
+    - MGJToolkit
+    - MGJUIKit
+    - PredefinedEvent-MGJ
+  - MGJFoundation (0.3.13):
+    - AFNetworking (~> 2.5.0)
+    - AutoCoding (~> 2.2.1)
+    - Base64nl (~> 1.2)
+    - BlocksKit (~> 2.2.5)
+    - FileMD5Hash (~> 2.0)
+    - FXNotifications (~> 1.1)
+    - JSONModel (~> 1.0.2)
+    - KVOController (~> 1.0.3)
+    - MGJ-Categories/Foundation
+    - MGJEntity (~> 0.1.3)
+    - MGJFoundation/Classes (= 0.3.13)
+    - MGJHangDetector
+    - MGJHTTPDNS
+    - MGJLogger (~> 0.1.0)
+    - MGJMacros
+    - MGJRequest
+    - MGJRouter
+    - MGJZipArchive (~> 0.3.1)
+    - ModuleManager
+    - OpenSSL-Universal (~> 1.0.1.l)
+    - SSKeychain (~> 1.2.3)
+    - TMCache (~> 1.2.4)
+    - URLHelper
+  - MGJFoundation/Classes (0.3.13):
+    - AFNetworking (~> 2.5.0)
+    - AutoCoding (~> 2.2.1)
+    - Base64nl (~> 1.2)
+    - BlocksKit (~> 2.2.5)
+    - FileMD5Hash (~> 2.0)
+    - FXNotifications (~> 1.1)
+    - JSONModel (~> 1.0.2)
+    - KVOController (~> 1.0.3)
+    - MGJ-Categories/Foundation
+    - MGJEntity (~> 0.1.3)
+    - MGJHangDetector
+    - MGJHTTPDNS
+    - MGJLogger (~> 0.1.0)
+    - MGJMacros
+    - MGJRequest
+    - MGJRouter
+    - MGJZipArchive (~> 0.3.1)
+    - ModuleManager
+    - OpenSSL-Universal (~> 1.0.1.l)
+    - SSKeychain (~> 1.2.3)
+    - TMCache (~> 1.2.4)
+    - URLHelper
+  - MGJHangDetector (0.0.4):
+    - MGJ-Categories
+  - MGJHotfix (0.1.19):
+    - AFNetworking (~> 2.5.0)
+    - FileMD5Hash (~> 2.0)
+    - JSPatch/Extensions (~> 1.0)
+  - MGJHTTPDNS (0.1.13):
+    - MGJ-Categories
+    - MGJMacros
+    - MGJRequest
+  - MGJImage (0.2.30):
+    - MGJ-Categories
+    - MGJEntity
+    - SDWebImage/WebP (~> 3.7.3)
+  - MGJImageProcessSDK (0.6.108):
+    - GPUImage
+    - MGJAssetsManager
+    - MGJEntity
+    - MGJMacros
+    - MGJUIKit
+    - SDWebImage
+  - MGJLFSDK (0.0.11):
+    - MGJEntity
+  - MGJLogger (0.1.16):
+    - CocoaLumberjack (= 2.0.0)
+  - MGJLogin (0.8.55):
+    - LoginFoundationSDK
+    - Masonry
+    - MGJ-EBCategories (~> 0.0.1)
+    - MGJEBUIKit
+    - MGJFoundation (~> 0.3.13)
+    - MGJPFSecuritySDK
+    - MGJUIComponent/AlertView
+    - MGJUIComponent/Loading
+    - MGJUser (~> 0.0.11)
+    - MGJVendorsWrapper (~> 0.3.7)
+    - ModuleManager (~> 0.4.3)
+    - ModulePredefinedEvent-MGJLOGIN
+    - ModulePredefinedEvent-WEB (~> 0.0.7)
+    - PredefinedEvent-MGJ (~> 0.0.158)
+    - TPKeyboardAvoiding
+    - TTTAttributedLabel
+  - MGJMacros (0.1.2)
+  - MGJNavigationController (0.0.8):
+    - MGJAnalytics (~> 0.1.56)
+    - MGJRouter
+    - MGJUIKit (~> 0.1.0)
+  - MGJNetworkRecorder (0.1.11):
+    - MGJ-Categories
+    - MGJAnalytics (~> 0.1.60)
+    - MGJLogger
+    - MGJMacros
+  - MGJNotice (0.1.5)
+  - MGJParseAPI (0.0.56):
+    - MGJFoundation
+    - MGJToolkit
+    - MWPAdapter
+  - mgjparseapiminfo (0.0.9):
+    - MGJParseAPI
+    - MGJUser
+  - MGJPFFoundation (0.1.16):
+    - MarqueeLabel
+    - Masonry
+    - MGJAlertView
+    - MGJFoundation
+    - MGJPFFoundation/MGJPFFoundationFwk (= 0.1.16)
+    - MGJPFFoundation/MGJPFFoundationSDK (= 0.1.16)
+    - MGJPFSecuritySDK
+    - MGJPFVendors
+    - MGJRefresh
+    - MGJSecurity
+    - MGJToolkit
+    - MGJUIKit
+    - MGJVendors
+    - ModulePredefinedEvent-MGJPF
+    - ModulePredefinedPage-MGJPF
+    - MPMessagePack
+    - MWP-SDK-iOS
+    - MWPAdapter
+    - predefinedevent-mgjpf
+    - TPKeyboardAvoiding
+    - TTTAttributedLabel
+  - MGJPFFoundation/MGJPFFoundationFwk (0.1.16):
+    - MarqueeLabel
+    - Masonry
+    - MGJAlertView
+    - MGJFoundation
+    - MGJPFSecuritySDK
+    - MGJPFVendors
+    - MGJRefresh
+    - MGJSecurity
+    - MGJToolkit
+    - MGJUIKit
+    - MGJVendors
+    - ModulePredefinedEvent-MGJPF
+    - ModulePredefinedPage-MGJPF
+    - MPMessagePack
+    - MWP-SDK-iOS
+    - MWPAdapter
+    - predefinedevent-mgjpf
+    - TPKeyboardAvoiding
+    - TTTAttributedLabel
+  - MGJPFFoundation/MGJPFFoundationSDK (0.1.16):
+    - MarqueeLabel
+    - Masonry
+    - MGJAlertView
+    - MGJFoundation
+    - MGJPFSecuritySDK
+    - MGJPFVendors
+    - MGJRefresh
+    - MGJSecurity
+    - MGJToolkit
+    - MGJUIKit
+    - MGJVendors
+    - ModulePredefinedEvent-MGJPF
+    - ModulePredefinedPage-MGJPF
+    - MPMessagePack
+    - MWP-SDK-iOS
+    - MWPAdapter
+    - predefinedevent-mgjpf
+    - TPKeyboardAvoiding
+    - TTTAttributedLabel
+  - MGJPFPay (0.1.12):
+    - MGJPFFoundation
+  - MGJPFSecurityCenter (0.1.5):
+    - MGJPFFoundation
+    - MGJPFSecurityCenter/MGJPFSecurityCenterFwk (= 0.1.5)
+    - MGJPFSecurityCenter/MGJPFSecurityCenterSDK (= 0.1.5)
+  - MGJPFSecurityCenter/MGJPFSecurityCenterFwk (0.1.5):
+    - MGJPFFoundation
+  - MGJPFSecurityCenter/MGJPFSecurityCenterSDK (0.1.5):
+    - MGJPFFoundation
+  - MGJPFSecuritySDK (0.0.5):
+    - MGJFoundation
+    - MGJRequestManagerFactory
+    - MGJSecurity
+    - MWP-SDK-iOS
+    - MWPAdapter
+  - MGJPFVendors (1.0.10)
+  - MGJPFWallet (0.1.13):
+    - MGJPFFoundation
+    - MGJPFWallet/MGJPFWalletFwk (= 0.1.13)
+    - MGJPFWallet/MGJPFWalletSDK (= 0.1.13)
+  - MGJPFWallet/MGJPFWalletFwk (0.1.13):
+    - MGJPFFoundation
+  - MGJPFWallet/MGJPFWalletSDK (0.1.13):
+    - MGJPFFoundation
+  - MGJPhotoBrowser (0.0.8):
+    - AFNetworking
+    - DACircularProgress
+    - MGJ-Categories
+    - MGJAnalytics
+    - MGJEntity
+    - MGJNavigationController
+    - MGJQRCodeReader
+    - MGJUIComponent/AlertView
+    - SDWebImage
+  - MGJQRCodeReader (0.0.3):
+    - MGJ-Categories
+    - MGJUIComponent/AlertView
+    - ZXingObjC
+  - MGJRefresh (0.1.10)
+  - MGJRequest (0.2.9):
+    - AFNetworking (~> 2.5.0)
+    - MGJ-Categories/Foundation
+    - TMCache
+  - MGJRequestManagerFactory (0.1.9):
+    - AutoCoding
+    - MGJ-Categories
+    - MGJAnalytics
+    - MGJAppInfo
+    - MGJHTTPDNS
+    - MGJRequest
+    - MGJStorage
+    - MGJURLTokenGenerator
+  - MGJRequestState (0.1.2):
+    - FingerPrint
+    - MGJ-Categories
+    - MGJAppInfo
+  - MGJRouter (0.1.4):
+    - MGJ-Categories
+    - MGJMacros
+  - MGJSecurity (1.0.9):
+    - Base64nl
+    - OpenSSL-Universal
+    - SSKeychain
+  - MGJShare (0.2.102):
+    - ConfigCenter (~> 0.1.27)
+    - FXBlurView (~> 1.6.4)
+    - MGJAnalytics (~> 0.1.60)
+    - MGJFoundation (~> 0.3.11)
+    - mgjshareutil (~> 0.0.5)
+    - MGJToolkit (~> 0.3.232)
+    - MGJTTTAttributedLabel
+    - MGJUIKit (~> 0.1.50)
+    - MGJUser (~> 0.0.10)
+    - MGJVendorsWrapper (~> 0.3.3)
+    - ModulePredefinedEvent-WEB (~> 0.0.8)
+    - PredefinedEvent-MGJ (~> 0.0.313)
+    - URLHelper
+    - ZXingObjC (~> 3.1.5)
+  - mgjshareutil (0.0.5):
+    - MGJVendorsWrapper (~> 0.3.0)
+  - MGJSKUUtil (0.0.24):
+    - MGJEBUIKit
+    - MGJFoundation
+    - MGJUIComponent/AlertView
+    - MGJUIComponent/Loading
+    - MGJUIKit
+    - MGJUser
+    - PredefinedEvent-MGJ
+  - MGJSocket (0.1.4)
+  - MGJSocketService (0.1.13):
+    - AFNetworking/Reachability (~> 2.5.0)
+    - MGJAnalytics
+    - MGJRequestState
+    - MGJSocket (~> 0.1.0)
+    - MGJURLTokenGenerator
+    - ProtocolBuffers
+  - MGJStorage (0.1.2):
+    - Objective-LevelDB (~> 2.1.0)
+  - MGJTabBarController (0.1.16):
+    - MGJ-Categories (~> 0.1.240)
+    - MGJAnalytics (~> 0.1.18)
+    - MGJBadgeView
+    - MGJUIKit
+  - MGJToolkit (0.3.239):
+    - MGJToolkit/All (= 0.3.239)
+  - MGJToolkit/All (0.3.239):
+    - AFgzipRequestSerializer
+    - MGJAnalytics (~> 0.1.6)
+    - MGJAppInfo
+    - MGJBadgeView
+    - MGJFoundation (~> 0.3.13)
+    - MGJImage (~> 0.2.18)
+    - MGJNavigationController (~> 0.0.1)
+    - MGJRequestManagerFactory
+    - MGJTabBarController (~> 0.1.1)
+    - MGJUIKit
+    - MGJURLTokenGenerator
+    - MPMessagePack
+    - OpenSSL-Universal
+    - SDWebImage/WebP (~> 3.7.3)
+    - SwipeView
+  - MGJTTTAttributedLabel (0.0.2):
+    - MGJ-Categories
+    - MGJMacros
+    - TTTAttributedLabel
+    - URLHelper
+  - MGJUIComponent/AlertView (0.2.19):
+    - MGJAlertView (~> 0.1.0)
+    - MGJUIComponent/Base
+    - MGJUIComponent/Tips
+    - MGJUIKit (~> 0.1.42)
+  - MGJUIComponent/Base (0.2.19):
+    - MGJUIKit (~> 0.1.42)
+  - MGJUIComponent/Button (0.2.19):
+    - MGJUIComponent/Base
+    - MGJUIKit (~> 0.1.42)
+  - MGJUIComponent/Loading (0.2.19):
+    - MGJUIComponent/Base
+    - MGJUIKit (~> 0.1.42)
+  - MGJUIComponent/Tips (0.2.19):
+    - MGJNotice (~> 0.1.0)
+    - MGJUIComponent/Base
+    - MGJUIKit (~> 0.1.42)
+  - MGJUIKit (0.1.58):
+    - MGJUIKit/Categories (= 0.1.58)
+    - MGJUIKit/Classes (= 0.1.58)
+    - MGJUIKit/Macros (= 0.1.58)
+  - MGJUIKit/Categories (0.1.58):
+    - BlocksKit (~> 2.2.5)
+    - MGJ-Categories
+    - MGJMacros (~> 0.1.0)
+  - MGJUIKit/Classes (0.1.58):
+    - CHTCollectionViewWaterfallLayout (= 0.9.2)
+  - MGJUIKit/Macros (0.1.58)
+  - MGJURLRuleUtil (0.0.6):
+    - MGJEntity
+    - MGJRequestManagerFactory
+    - MGJRouter
+  - MGJURLToken (0.1.0)
+  - MGJURLTokenGenerator (0.1.1)
+  - MGJUser (0.0.13):
+    - MGJFoundation (~> 0.3.2)
+  - MGJVendors (0.2.8):
+    - MGJVendors/AliPay (= 0.2.8)
+    - MGJVendors/Pinterest (= 0.2.8)
+    - MGJVendors/Tencent (= 0.2.8)
+    - MGJVendors/UUPay (= 0.2.8)
+    - MGJVendors/Weibo (= 0.2.8)
+    - MGJVendors/WXSDK (= 0.2.8)
+  - MGJVendors/AliPay (0.2.8):
+    - MGJVendors/Base
+  - MGJVendors/Base (0.2.8)
+  - MGJVendors/Pinterest (0.2.8):
+    - MGJVendors/Base
+  - MGJVendors/Tencent (0.2.8):
+    - MGJVendors/Base
+  - MGJVendors/UUPay (0.2.8):
+    - MGJVendors/Base
+  - MGJVendors/Weibo (0.2.8):
+    - MGJVendors/Base
+  - MGJVendors/WXSDK (0.2.8):
+    - MGJVendors/Base
+  - MGJVendorsWrapper (0.3.7):
+    - MGJ-Categories/Foundation (~> 0.1.145)
+    - MGJNotice (~> 0.1.0)
+    - MGJUIComponent/AlertView (~> 0.2.0)
+    - MGJVendorsWrapper/Facebook (= 0.3.7)
+    - MGJVendorsWrapper/Pinterest (= 0.3.7)
+    - MGJVendorsWrapper/Tencent (= 0.3.7)
+    - MGJVendorsWrapper/Twitter (= 0.3.7)
+    - MGJVendorsWrapper/Weibo (= 0.3.7)
+    - MGJVendorsWrapper/Weixin (= 0.3.7)
+  - MGJVendorsWrapper/Facebook (0.3.7):
+    - MGJ-Categories/Foundation (~> 0.1.145)
+    - MGJNotice (~> 0.1.0)
+    - MGJUIComponent/AlertView (~> 0.2.0)
+  - MGJVendorsWrapper/Pinterest (0.3.7):
+    - MGJ-Categories/Foundation (~> 0.1.145)
+    - MGJNotice (~> 0.1.0)
+    - MGJUIComponent/AlertView (~> 0.2.0)
+    - MGJVendors/Pinterest
+  - MGJVendorsWrapper/Tencent (0.3.7):
+    - MGJ-Categories/Foundation (~> 0.1.145)
+    - MGJNotice (~> 0.1.0)
+    - MGJUIComponent/AlertView (~> 0.2.0)
+    - MGJVendors/Tencent
+  - MGJVendorsWrapper/Twitter (0.3.7):
+    - MGJ-Categories/Foundation (~> 0.1.145)
+    - MGJNotice (~> 0.1.0)
+    - MGJUIComponent/AlertView (~> 0.2.0)
+  - MGJVendorsWrapper/Weibo (0.3.7):
+    - MGJ-Categories/Foundation (~> 0.1.145)
+    - MGJNotice (~> 0.1.0)
+    - MGJStorage
+    - MGJUIComponent/AlertView (~> 0.2.0)
+    - MGJVendors/Weibo
+  - MGJVendorsWrapper/Weixin (0.3.7):
+    - MGJ-Categories/Foundation (~> 0.1.145)
+    - MGJNotice (~> 0.1.0)
+    - MGJRouter
+    - MGJUIComponent/AlertView (~> 0.2.0)
+    - MGJVendors/WXSDK
+  - MGJVideoPlayer (1.0.4):
+    - MGJVideoPlayer/Core (= 1.0.4)
+    - MGJVideoPlayer/MGJModule (= 1.0.4)
+    - MGJVideoPlayer/UI (= 1.0.4)
+    - MGJVideoPlayer/Util (= 1.0.4)
+  - MGJVideoPlayer/Core (1.0.4):
+    - LeCloudPlayerSDK/Whole (~> 0.3.0)
+  - MGJVideoPlayer/MGJModule (1.0.4):
+    - AppPredefinedEvent-MGJ
+    - ModuleManager
+  - MGJVideoPlayer/UI (1.0.4):
+    - Masonry (~> 0.6.2)
+    - SDWebImage (~> 3.7.0)
+  - MGJVideoPlayer/Util (1.0.4):
+    - Aspects (~> 1.4.1)
+    - MGJAnalytics (~> 0.1.66)
+  - MGJZipArchive (0.3.1)
+  - MJRefresh (3.0.8.1)
+  - MLSActivityPopupComponent (0.1.8):
+    - MGJBaseComponent
+    - MLSEnterHomeNotificationMiddleWareComponent
+    - MLSPopupController
+    - MWP-SDK-iOS
+  - MLSAddress (0.0.14):
+    - MGJ-Categories
+    - MGJAreaInfoUtil
+    - MGJEBUIKit
+    - MGJMacros
+    - MGJNavigationController
+    - MGJParseAPI
+    - mgjparseapiminfo
+    - MGJUIComponent/Loading
+    - MGJUIKit
+    - MLSSDK
+    - PredefinedEvent-MGJ
+    - TPKeyboardAvoiding
+  - MLSBoardComponent (1.1.8):
+    - MLSBoardComponent/Categories (= 1.1.8)
+    - MLSBoardComponent/Controllers (= 1.1.8)
+    - MLSBoardComponent/extobjc (= 1.1.8)
+    - MLSBoardComponent/Models (= 1.1.8)
+    - MLSBoardComponent/Views (= 1.1.8)
+    - MLSSDK
+  - MLSBoardComponent/Categories (1.1.8):
+    - MLSSDK
+  - MLSBoardComponent/Controllers (1.1.8):
+    - MLSSDK
+  - MLSBoardComponent/extobjc (1.1.8):
+    - MLSSDK
+  - MLSBoardComponent/Models (1.1.8):
+    - MLSSDK
+  - MLSBoardComponent/Views (1.1.8):
+    - MLSSDK
+  - MLSConfig (0.1.2):
+    - ConfigCenter
+  - MLSContent (1.0.6):
+    - MLSSDK
+  - MLSDailyMail (0.1.92):
+    - INTULocationManager
+    - MLSConfig
+    - MLSEnterHomeNotificationMiddleWareComponent
+    - MLSFunctionViewKit
+    - MLSIM
+    - MLSLogin
+    - MLSPhotoCameraPicker
+    - MLSPopupController
+    - MLSPublish
+    - MLSSDK
+    - MLSShare
+    - MLSTopicTag
+    - MLSUpdateComponent
+    - YYText
+  - MLSDebug (0.1.1):
+    - MGJQRCodeReader
+    - MLSDebugComponent
+    - MLSSDK
+    - MLSUIKit
+  - MLSDebugComponent (0.1.2):
+    - MGJQRCodeReader
+    - MLSSDK
+    - MLSUIKit
+  - MLSDetail (0.0.101):
+    - AppPredefinedEvent-MLS
+    - HMSegmentedControl
+    - HPGrowingTextView
+    - Masonry
+    - MGJFloatLayerViewComponent
+    - MGJFoundation
+    - MGJPhotoBrowser
+    - MGJQRCodeReader
+    - MGJSecurity
+    - MGJTTTAttributedLabel
+    - MGJUIComponent/AlertView
+    - MGJUIComponent/Loading
+    - MGJVideoPlayer
+    - MLSDetailFoundation
+    - MLSSDK
+    - MLSShare
+    - MLSSKU
+    - TPKeyboardAvoiding
+    - UITableView+FDTemplateLayoutCell
+  - MLSDetailFoundation (0.0.11):
+    - MGJToolkit
+    - MLSSDK
+    - MWPAdapter
+  - MLSEnterHomeNotificationMiddleWareComponent (0.1.6):
+    - MGJBaseComponent
+    - MLSSplashComponent
+    - MLSWelcomeComponent
+  - MLSFunctionViewKit (0.1.9):
+    - MGJFoundation (~> 0.3.12)
+    - MLSLogin
+    - MLSSDK
+    - MLSUIKit
+    - MLSUser
+    - YYText
+  - MLSHomePage (0.1.270-rc.1):
+    - INTULocationManager
+    - MGJFoundation (~> 0.3.12)
+    - MGJShare
+    - MLSDailyMail
+    - MLSFunctionViewKit
+    - MLSLogin
+    - MLSPhotoCameraPicker
+    - MLSPublish
+    - MLSSDK
+    - MLSTopicTag
+    - MLSUpdateComponent
+    - MLSUser
+    - YYText
+  - MLSHWHome (0.1.76):
+    - MLSSDK
+  - MLSIM (0.1.76):
+    - HMSegmentedControl
+    - HPGrowingTextView
+    - IMiOSUIKit
+    - IMSDK
+    - Masonry
+    - MBProgressHUD
+    - MGJImage
+    - MLSSDK
+    - ModulePredefinedEvent-MLSIM
+    - YYText
+  - MLSLogin (0.0.10):
+    - AppPredefinedEvent-MLS
+    - MGJLogin
+    - MLSSDK
+  - MLSMe (0.2.27):
+    - MLSLogin
+    - MLSSDK
+    - MLSUIKit
+    - SDWebImage
+  - MLSOutsideDetail (0.1.29)
+  - MLSPFSDK (0.0.14):
+    - MGJPFFoundation
+    - MGJPFPay
+    - MGJPFSecurityCenter
+    - MGJPFWallet
+    - MGJSecurity
+    - MLSSDK
+  - MLSPhotoCameraPicker (0.1.31):
+    - DACircularProgress
+    - FMDB
+    - iCarousel (~> 1.8)
+    - Masonry
+    - MGJAssetsManager (~> 0.1.0)
+    - MGJFoundation
+    - MGJImageProcessSDK
+    - MGJLFSDK (~> 0.0.1)
+    - MGJPhotoBrowser
+    - MLSSDK
+    - OAStackView (~> 0.2.0)
+    - UITableView+FDTemplateLayoutCell
+    - ZXingObjC
+  - MLSPopupComponent (0.1.13):
+    - ConfigCenter
+    - MBProgressHUD
+    - MGJBaseComponent
+    - MWP-SDK-iOS
+  - MLSPopupController (0.1.25):
+    - MGJImage
+    - MLSSDK
+    - MLSUIKit
+    - MLSUser
+  - MLSPublish (0.1.58):
+    - Masonry
+    - MGJFoundation (~> 0.3.12)
+    - MLSSDK
+  - MLSSDK (0.1.79):
+    - AppPredefinedEvent-MLS
+    - ConfigCenter (~> 0.1.27)
+    - HDPCordova (~> 1.1.10)
+    - MGJAnalytics
+    - MGJAppInfo
+    - MGJBaseComponent
+    - MGJCrashManager
+    - MGJEntity
+    - MGJFoundation
+    - MGJHangDetector
+    - MGJHotfix (~> 0.1.18)
+    - MGJHTTPDNS
+    - MGJImage
+    - MGJLogger
+    - MGJNavigationController
+    - MGJNetworkRecorder
+    - MGJRequest
+    - MGJRequestManagerFactory
+    - MGJRouter
+    - MGJSecurity
+    - MGJStorage (~> 0.1.2)
+    - MGJTabBarController
+    - MGJToolkit
+    - MGJUIComponent/AlertView
+    - MGJURLToken
+    - MGJURLTokenGenerator
+    - MLSUIKit
+    - MLSUser
+    - ModuleManager
+    - MWP-SDK-iOS
+    - OpenUDID
+  - MLSSearch (0.1.70):
+    - MLSSDK
+    - MLSWaterFlow
+    - ModulePredefinedEvent-MLSSEARCH
+  - MLSShare (0.0.8):
+    - MGJShare
+    - MLSSDK
+  - MLSShop (0.1.64):
+    - FDStackView
+    - MLSSDK
+    - MLSShare
+    - MLSWaterFlow
+    - ModulePredefinedEvent-MLSSHOP
+  - MLSSKU (0.0.3):
+    - MGJSKUUtil
+    - MLSSDK
+  - MLSSplashComponent (0.1.7):
+    - MGJBaseComponent
+    - MLSConfig
+  - MLSTopicTag (0.1.85):
+    - MLSSDK
+  - MLSTrade (0.0.110):
+    - AppPredefinedEvent-MLS
+    - Masonry
+    - MGJEBUIKit
+    - MGJFloatLayerViewComponent
+    - MGJFoundation
+    - MGJImageProcessSDK
+    - mgjparseapiminfo
+    - MGJPFPay
+    - MGJTTTAttributedLabel
+    - MGJUIComponent/Button
+    - MGJUIComponent/Loading
+    - MGJUIKit
+    - MLSAddress
+    - MLSPFSDK
+    - MLSPhotoCameraPicker
+    - MLSSDK
+    - MLSTradeFoundation
+    - PredefinedEvent-MGJ
+    - TPKeyboardAvoiding
+    - UITableView+FDTemplateLayoutCell
+  - MLSTradeFoundation (0.0.40):
+    - MLSSDK
+  - MLSUIKit (0.1.115):
+    - FXBlurView
+    - MGJAnalytics
+    - MGJEntity
+    - MGJNavigationController
+    - MGJRefresh
+    - MGJTabBarController
+    - MGJUIComponent/AlertView
+    - MGJUIComponent/Loading
+    - SDWebImage
+  - MLSUpdateComponent (0.1.5):
+    - ConfigCenter
+    - MGJBaseComponent
+    - MLSEnterHomeNotificationMiddleWareComponent
+    - MLSPopupController
+  - MLSUser (0.0.11):
+    - MGJBaseComponent
+    - MGJUser
+  - MLSUserGuide (0.1.21)
+  - MLSWaterFlow (0.1.17):
+    - Masonry
+    - MLSSDK
+  - MLSWebContainer (0.1.44):
+    - HDP4IOS
+    - Masonry
+    - MGJPhotoBrowser
+    - MGJShare
+    - MGJURLRuleUtil
+    - MJRefresh
+    - MLSLogin
+    - MLSSDK
+  - MLSWelcomeComponent (0.1.9)
+  - ModuleManager (0.4.3.1)
+  - ModulePredefinedEvent-MGJLOGIN (0.0.3)
+  - ModulePredefinedEvent-MGJPF (0.0.21)
+  - ModulePredefinedEvent-MLSEXTERNAL (0.0.2)
+  - ModulePredefinedEvent-MLSIM (0.0.2)
+  - ModulePredefinedEvent-MLSSEARCH (0.0.3)
+  - ModulePredefinedEvent-MLSSHOP (0.0.2)
+  - ModulePredefinedEvent-WEB (0.0.11)
+  - ModulePredefinedPage-MGJPF (0.0.11)
+  - MPMessagePack (0.1.9.1)
+  - MWP-SDK-iOS (0.2.13):
+    - MWP-SDK-iOS/Interface (= 0.2.13)
+    - MWP-SDK-iOS/SDK (= 0.2.13)
+  - MWP-SDK-iOS/Interface (0.2.13)
+  - MWP-SDK-iOS/SDK (0.2.13):
+    - AFNetworking
+    - Base64nl
+    - Godzippa
+    - iOS_Util_Json
+    - MGJAnalytics
+    - MGJAppInfo
+    - MGJHTTPDNS
+    - MGJRequestState (~> 0.1.2)
+    - MGJSocketService (~> 0.1.6-rc.2)
+    - MGJURLTokenGenerator
+    - ProtocolBuffers
+    - WTPipelineForOC
+  - MWPAdapter (0.1.21):
+    - MGJAnalytics
+    - MGJRequest
+    - MWP-SDK-iOS
+  - OAStackView (0.2.0)
+  - Objective-LevelDB (2.1.5.1):
+    - leveldb-library (~> 1.18.2)
+  - OpenSSL-Universal (1.0.1.l1)
+  - OpenUDID (1.0.0)
+  - PLCrashReporter (1.2.1)
+  - PredefinedEvent-MGJ (0.0.328)
+  - predefinedevent-mgjpf (0.0.14)
+  - ProtocolBuffers (1.9.10)
+  - SDWebImage (3.7.6.1):
+    - SDWebImage/Core (= 3.7.6.1)
+  - SDWebImage/Core (3.7.6.1)
+  - SDWebImage/WebP (3.7.6.1):
+    - libwebp (~> 0.4.3)
+    - SDWebImage/Core
+  - SmsPlugin4IOS (1.1.1)
+  - SQLCipher (3.1.0.1):
+    - SQLCipher/standard (= 3.1.0.1)
+  - SQLCipher/common (3.1.0.1)
+  - SQLCipher/standard (3.1.0.1):
+    - SQLCipher/common
+  - SSKeychain (1.2.3.1)
+  - SwipeView (1.3.2.1)
+  - TMCache (1.2.4.1)
+  - TPKeyboardAvoiding (1.2.4.1)
+  - TTTAttributedLabel (1.13.4.1)
+  - UITableView+FDTemplateLayoutCell (1.4.0.1)
+  - URLHelper (0.0.2):
+    - MGJ-Categories
+  - WTPipelineForOC (0.1.4)
+  - XCore (0.1.7):
+    - AFNetworking (~> 2.5.0)
+    - SDWebImage (~> 3.7.3)
+  - YYText (1.0.5)
+  - ZXingObjC (3.1.5):
+    - ZXingObjC/All (= 3.1.5)
+  - ZXingObjC/All (3.1.5)
+
+DEPENDENCIES:
+  - AFgzipRequestSerializer (= 0.0.2.1)
+  - AFNetworking (= 2.5.4)
+  - AppPredefinedEvent-MLS (~> 0.0.33)
+  - AutoCoding (= 2.2.1.1)
+  - Base64nl (= 1.2.0.1)
+  - BlocksKit (= 2.2.5.1)
+  - CalendarPlugin4IOS (= 1.1.3)
+  - CameraPlugin4IOS (= 1.1.0)
+  - CHTCollectionViewWaterfallLayout (= 0.9.2)
+  - CocoaLumberjack (= 2.0.0)
+  - ConfigCenter (= 0.1.35)
+  - ContactPlugin4IOS (= 1.1.1)
+  - Crashlytics (= 3.7.0)
+  - DACircularProgress (= 2.3.1.1)
+  - Fabric (= 1.6.7)
+  - FDStackView (= 1.0)
+  - FileMD5Hash (= 2.0.0.1)
+  - FingerPrint (= 0.1.14)
+  - FMDB (= 2.6.2.1)
+  - FXNotifications (= 1.1.0.1)
+  - Godzippa (= 1.1.0.1)
+  - GPUImage (= 0.1.10)
+  - HDP4IOS (= 1.1.43)
+  - HDPCordova (= 1.1.16)
+  - HMSegmentedControl (= 1.5.2.1)
+  - HPGrowingTextView (= 1.1.0.1)
+  - iCarousel (= 1.8.2.1)
+  - IMiOSUIKit (= 0.0.27)
+  - IMSDK (= 0.1.17)
+  - INTULocationManager (= 4.2.0)
+  - iOS_Util_Core (= 1.1)
+  - iOS_Util_Json (= 1.2.0)
+  - iOSVoiceKit (= 0.0.7)
+  - JSONModel (= 1.0.2.1)
+  - JSPatch (= 1.0)
+  - KLSwitch (= 1.5)
+  - KVOController (= 1.0.3.1)
+  - leveldb-library (= 1.18.2)
+  - libextobjc (= 0.4.1.1)
+  - libwebp (= 0.4.4.1)
+  - LoginFoundationSDK (= 0.5.28)
+  - MarqueeLabel (= 2.7.1.1)
+  - Masonry (= 0.6.4.1)
+  - MBProgressHUD (= 0.9.2.1)
+  - MGJ-Categories (= 0.1.253)
+  - MGJAlertView (= 0.1.0)
+  - MGJAnalytics (= 0.1.66)
+  - MGJAntiCrash (= 0.2.22)
+  - MGJAppInfo (= 0.1.2)
+  - MGJAreaInfoUtil (= 0.0.7)
+  - MGJAssetsManager (= 0.1.39)
+  - MGJBadgeView (= 0.1.0)
+  - MGJBaseComponent (= 0.1.2)
+  - MGJBatchRequesterStore (= 0.1.3)
+  - MGJCrashManager (= 0.2.1)
+  - MGJEBUIKit (= 0.0.6)
+  - MGJEntity (= 0.1.11)
+  - MGJFloatLayerViewComponent (= 0.1.8)
+  - MGJFoundation (= 0.3.13)
+  - MGJHangDetector (= 0.0.4)
+  - MGJHotfix (= 0.1.19)
+  - MGJHTTPDNS (= 0.1.13)
+  - MGJImage (= 0.2.30)
+  - MGJImageProcessSDK (= 0.6.108)
+  - MGJLFSDK (= 0.0.11)
+  - MGJLogger (= 0.1.16)
+  - MGJLogin (= 0.8.55)
+  - MGJMacros (= 0.1.2)
+  - MGJNavigationController (= 0.0.8)
+  - MGJNetworkRecorder (= 0.1.11)
+  - MGJNotice (= 0.1.5)
+  - MGJParseAPI (= 0.0.56)
+  - mgjparseapiminfo (= 0.0.9)
+  - MGJPFFoundation (= 0.1.16)
+  - MGJPFPay (= 0.1.12)
+  - MGJPFSecurityCenter (= 0.1.5)
+  - MGJPFSecuritySDK (= 0.0.5)
+  - MGJPFVendors (= 1.0.10)
+  - MGJPFWallet (= 0.1.13)
+  - MGJPhotoBrowser (= 0.0.8)
+  - MGJQRCodeReader (= 0.0.3)
+  - MGJRequest (= 0.2.9)
+  - MGJRequestManagerFactory (= 0.1.9)
+  - MGJRequestState (= 0.1.2)
+  - MGJRouter (= 0.1.4)
+  - MGJSecurity (= 1.0.9)
+  - MGJShare (= 0.2.102)
+  - mgjshareutil (= 0.0.5)
+  - MGJSKUUtil (= 0.0.24)
+  - MGJStorage (= 0.1.2)
+  - MGJTabBarController (= 0.1.16)
+  - MGJToolkit (= 0.3.239)
+  - MGJTTTAttributedLabel (= 0.0.2)
+  - MGJUIComponent/AlertView (= 0.2.19)
+  - MGJUIKit (= 0.1.58)
+  - MGJURLRuleUtil (= 0.0.6)
+  - MGJURLToken (= 0.1.0)
+  - MGJURLTokenGenerator (= 0.1.1)
+  - MGJUser (= 0.0.13)
+  - MGJVendors (= 0.2.8)
+  - MGJVendorsWrapper (= 0.3.7)
+  - MGJVideoPlayer (= 1.0.4)
+  - MGJZipArchive (= 0.3.1)
+  - MLSActivityPopupComponent (= 0.1.8)
+  - MLSAddress (= 0.0.14)
+  - MLSBoardComponent (= 1.1.8)
+  - MLSConfig (= 0.1.2)
+  - MLSContent (= 1.0.6)
+  - MLSDailyMail (= 0.1.92)
+  - MLSDebug (= 0.1.1)
+  - MLSDebugComponent (= 0.1.2)
+  - MLSDetail (= 0.0.101)
+  - MLSDetailFoundation (= 0.0.11)
+  - MLSEnterHomeNotificationMiddleWareComponent (= 0.1.6)
+  - MLSFunctionViewKit (= 0.1.9)
+  - MLSHomePage (from `../../haoyu/MLSHomePage`)
+  - MLSHWHome (= 0.1.76)
+  - MLSIM (= 0.1.76)
+  - MLSLogin (= 0.0.10)
+  - MLSMe (= 0.2.27)
+  - MLSOutsideDetail (= 0.1.29)
+  - MLSPFSDK (= 0.0.14)
+  - MLSPhotoCameraPicker (= 0.1.31)
+  - MLSPopupComponent (= 0.1.13)
+  - MLSPopupController (= 0.1.25)
+  - MLSPublish (= 0.1.58)
+  - MLSSDK (= 0.1.79)
+  - MLSSearch (= 0.1.70)
+  - MLSShare (= 0.0.8)
+  - MLSShop (= 0.1.64)
+  - MLSSKU (= 0.0.3)
+  - MLSSplashComponent (= 0.1.7)
+  - MLSTopicTag (= 0.1.85)
+  - MLSTrade (= 0.0.110)
+  - MLSTradeFoundation (= 0.0.40)
+  - MLSUIKit (= 0.1.115)
+  - MLSUpdateComponent (= 0.1.5)
+  - MLSUser (= 0.0.11)
+  - MLSUserGuide (= 0.1.21)
+  - MLSWaterFlow (= 0.1.17)
+  - MLSWebContainer (= 0.1.44)
+  - MLSWelcomeComponent (= 0.1.9)
+  - ModuleManager (= 0.4.3.1)
+  - ModulePredefinedEvent-MGJLOGIN (~> 0.0.2)
+  - ModulePredefinedEvent-MGJPF (~> 0.0.15)
+  - ModulePredefinedEvent-MLSEXTERNAL (~> 0.0.2)
+  - ModulePredefinedEvent-MLSIM (~> 0.0.2)
+  - ModulePredefinedEvent-MLSSEARCH (~> 0.0.2)
+  - ModulePredefinedEvent-MLSSHOP (~> 0.0.2)
+  - ModulePredefinedPage-MGJPF (~> 0.0.7)
+  - MPMessagePack (= 0.1.9.1)
+  - MWP-SDK-iOS (= 0.2.13)
+  - MWPAdapter (= 0.1.21)
+  - OAStackView (= 0.2.0)
+  - Objective-LevelDB (= 2.1.5.1)
+  - OpenSSL-Universal (~> 1.0.1.l)
+  - OpenUDID (= 1.0.0)
+  - PLCrashReporter (= 1.2.1)
+  - PredefinedEvent-MGJ (= 0.0.328)
+  - predefinedevent-mgjpf (~> 0.0.14)
+  - ProtocolBuffers (= 1.9.10)
+  - SDWebImage (= 3.7.6.1)
+  - SmsPlugin4IOS (= 1.1.1)
+  - SQLCipher (= 3.1.0.1)
+  - SSKeychain (= 1.2.3.1)
+  - SwipeView (= 1.3.2.1)
+  - TMCache (= 1.2.4.1)
+  - TPKeyboardAvoiding (= 1.2.4.1)
+  - TTTAttributedLabel (= 1.13.4.1)
+  - UITableView+FDTemplateLayoutCell (= 1.4.0.1)
+  - URLHelper (= 0.0.2)
+  - WTPipelineForOC (= 0.1.4)
+  - XCore (= 0.1.7)
+  - YYText (= 1.0.5)
+  - ZXingObjC (= 3.1.5)
+
+EXTERNAL SOURCES:
+  MLSHomePage:
+    :path: ../../haoyu/MLSHomePage
+
+SPEC CHECKSUMS:
+  AFgzipRequestSerializer: 2bf3b624201f91255f7925fad88d300c880ccce8
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  AppPredefinedEvent-MGJ: 128fae2f86789194226aeb90060cec484fc73c7d
+  AppPredefinedEvent-MLS: ffd16e59a7b27b11be08bf47677ee566f94bc47c
+  Aspects: 468af5d28fa8c6a0a552c889f5a0889d921cd7f0
+  AutoCoding: 0f5ed324d6f19fcdc6b5bb7b6ecd9a317f9a4128
+  Base64nl: 494f5da9a055d63f7c29bf7390c642a67bb8f144
+  BlocksKit: e5fc14aee00decf4bca0617555a02d9248c80ad1
+  CalendarPlugin4IOS: eb7ff1007e8622f84c4b3763c0d3cd8cfd1c2dad
+  CameraPlugin4IOS: 884c785d08d23cb28494d38ddf08be5c8855ebfe
+  CHTCollectionViewWaterfallLayout: 43232febcb3e4d3985cd758718cbe499b21b822f
+  CocoaLumberjack: a6f77d987d65dc7ba86b0f84db7d0b9084f77bcb
+  ConfigCenter: a273fb8692abc04c5f1bede44e5eeeea2fbde8dc
+  ContactPlugin4IOS: 53e22bb8a109044af74752ed86be8364bae0c404
+  Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
+  DACircularProgress: f263dce0b64649c103d67d3b2ffd0af7e93cdfa2
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  FDStackView: 3a4bbe0ce9c35e974246a585168b9da8c32213f1
+  FileMD5Hash: 45f29ed186220eb6ba55dd775a32314439ee6626
+  FingerPrint: 06d6d45a2f2c6180f07485eef9d06098d16a7f65
+  FMDB: f455777145b65069c87862b15fd0ed9d4b7cdad8
+  FXBlurView: 89fa0832dd7d8113af8a7309b282b8311a9dc2bb
+  FXNotifications: 126291877991a85a4b699b99c21d03baaddfabe7
+  Godzippa: 50d4a4920ddb0737f77afee85e0b7989a4b4accb
+  GPUImage: f8ccd157c4b454f4718309aed59e497dbf1319fd
+  HDP4IOS: 6b9eab37ce6a0ec86dbad389e0634b414e8ebb23
+  HDPCordova: 4db0c241518fd029f6441321869a55a866a54e81
+  HMSegmentedControl: 61434d6efc1253dc62a74378aef93c453da90586
+  HPGrowingTextView: a405ed5fc224a10ac985d545d1432ece4eb3ea39
+  iCarousel: 5848bde59a514b0ae075356b620147e0619b22ef
+  IMiOSUIKit: 0ce660d4da3e9da6a2675159dae4bcdd2ddd0cd9
+  IMSDK: 03085c0c0cb945e871d438eb9f16f0456773703b
+  INTULocationManager: 73f8254b3d05c897c56bb13c190e5b7c648c0998
+  iOS_Util_Core: 3be02c6d20097313953467fb422737b05249fddc
+  iOS_Util_Json: e248b9ffb286b78633bd7897e0ed9e4991aa6ca6
+  iOSVoiceKit: 8456ffdbf92add02faffc8ea460ccf09fa28f716
+  JSONModel: 5d7e854d39b6f6d43bf583c11bf881423abf018e
+  JSPatch: c689ea4dde17441f2f4a95d40dfedb8900c20099
+  KLSwitch: ff8b9953b9e15e16cb53efec7370a44ae02f8a6c
+  KVOController: abbebf9ae9b28b2d235eeeb946ffce9d88796f39
+  LeCloudPlayerSDK: 770ef107cad29057ec75a5b7239fe0798f156c7a
+  leveldb-library: ef0453697c0fda3a9e550e5650e52976e6724548
+  libextobjc: 9923a6b0c4e0f221cb33bb7a379af7d24a96cce4
+  libwebp: 9ec45c54a11ce78fd17e32c9d5f1684a50023c2e
+  LoginFoundationSDK: 9fc82d2f8dc38fcf5103040a3d0fd513f20df682
+  MarqueeLabel: b4a961198390df57de22ed622227923094c7c665
+  Masonry: 0fec27c9c4670e3574529a86f17f73e8135a00c7
+  MBProgressHUD: 22608e05a090791ba8223224c00ee98dc5d5ada8
+  MGJ-Categories: b2ce4dd437f0a93ee02f55a0b8ce939193dee3a3
+  MGJ-EBCategories: 9eef783ecc0849240b4e01e4d73a2184d7c602cf
+  MGJAlertView: 0c8a3ed3e9ccb43936762e28d669502968051bb5
+  MGJAnalytics: ea436d6f7b1178dc9162514072d1c1876b72b355
+  MGJAntiCrash: 52d624baf406a27b0b03bd8baa3f11f9d1b3ba6d
+  MGJAppInfo: 3721924acba085ce5a0444c1f01862ac59668a27
+  MGJAreaInfoUtil: 5b9b01339e9f19cbe086b0e8ae57598aadcbbc5e
+  MGJAssetsManager: 9adb47131d82163be74ed219c6e53f9801bb0564
+  MGJBadgeView: cc3af2e6700be0416f1c6f246d240854253b2a49
+  MGJBaseComponent: 247753fb908f7c0bd5606acd0f904edfd9a126f3
+  MGJBatchRequesterStore: be0f0d077303409482440b985f68093facb38a20
+  MGJCrashManager: 961a5cdb51bf77fcd1b4837c3e30388547f60950
+  MGJEBUIKit: c6434605177b3425ba0ec183505c5a8bed1a2e3c
+  MGJEntity: 25f05b36a3fdc9ccc411b1ef818a2117d74dafb8
+  MGJFloatLayerViewComponent: e0576a65dfee81286980b44c4ee88a47d010d814
+  MGJFoundation: 32e73bf35e7cb1db27907658c2c9f1a26cc1da38
+  MGJHangDetector: 6096df2139d986dc062a165093c355d6491ca1b1
+  MGJHotfix: 52abb2aa5d47aa6fee9679c741059370737b289d
+  MGJHTTPDNS: ccaa7ce7f55090ba14ce4a540993be5a2bb0eaf6
+  MGJImage: ebb0a70800ccf9b511e9971e403b372f042e5398
+  MGJImageProcessSDK: 5c39e9aeded1ff0968ef28604d87dbed65fe33b6
+  MGJLFSDK: a9c29ece3cb28b92e2258aee9686bc6ad62c75b7
+  MGJLogger: 638d242e2d29efe473691d53da7260d8bca5b4cb
+  MGJLogin: 01e24f74722bffc9a71b1913fa447a7feccfb859
+  MGJMacros: e06c906d4535274eca8d45c7be9930cef3e8204c
+  MGJNavigationController: aa086f5df93349ea88a0c1d574974ce21abc4c68
+  MGJNetworkRecorder: 3e2a93b5b7f1ae8b5edb5c76bb3c8cece1f2c362
+  MGJNotice: 0445ca2b9fbb1d89ab4ddb10ecc3e62178cee08a
+  MGJParseAPI: 0f3fa0ea940a7b85cd2e7cef995bcfaaf5867384
+  mgjparseapiminfo: 207cfcf532595ee300480f12c4f9452b9e87971f
+  MGJPFFoundation: 3ea25b87135c19f77f7de5965da10fe9df2de2fe
+  MGJPFPay: 5afe92c12233729bf47aa8be5c6ade9d34027227
+  MGJPFSecurityCenter: ca061a037d9607a4ddedb99ff89073b3e1ad478b
+  MGJPFSecuritySDK: 2c65f0a48585cb50d525fefb9e6a866e1e1c3405
+  MGJPFVendors: f9d4e8d69a1ba3fa9c4d80019cb3073f5931482c
+  MGJPFWallet: f886e30155137b254f732b9418d0eb7ca07860dd
+  MGJPhotoBrowser: 72c1d8aae9c9f9655b6a028dae8ccdd91164ac08
+  MGJQRCodeReader: b8d1a1acfea94d01eb9eb9334232c86b3da73b54
+  MGJRefresh: 50603bfe9c41a238b323bb7c76d7efcc778dd95d
+  MGJRequest: 0d041aa9ebd8d64ec1b6ed04b1a324ab4e496fcb
+  MGJRequestManagerFactory: 54e7b3e93a3b5a649140b9b140e482111023a075
+  MGJRequestState: 537d1c617b51ce8b41f3735be5f4856217d71571
+  MGJRouter: e7219636eada1a73b53f35e5ae4d341b81c7a1b9
+  MGJSecurity: f970e9491f56eb2cdf7176d1cebc099361a7393c
+  MGJShare: 8efb922461e41b11bfe954cf94a330007136ae02
+  mgjshareutil: f36ef553a750fc7147c0f3804050ef03358dc58f
+  MGJSKUUtil: 71c50bc98b16e9639842da7959cd16fc2a6e41d7
+  MGJSocket: f4ed755525a3154d683b1a87581624b5d646924b
+  MGJSocketService: 8597fb400c4591c8ff5d3e859fda841781b543b7
+  MGJStorage: 8afe3326d5c3fc529d57e898133133a4b0906bdc
+  MGJTabBarController: 6ffec98c81dcf21298705f8aa6ba6b113683e0d6
+  MGJToolkit: c99bc26c054362b5290d54f6051c2d11f6da2fb5
+  MGJTTTAttributedLabel: 07b2d03b988a1891ace1198fd5509a5dce89cbaa
+  MGJUIComponent: 5d53286831569de9b2dc6107fe08d3ed7f681b25
+  MGJUIKit: 88efc56e517ec295ff7feba2cfdd0d29f2943546
+  MGJURLRuleUtil: 35f268f8cf376791e9ac3431b7a5b806c3d3ef6d
+  MGJURLToken: b3b60251659281ba9fe93380afd5b41f76d15e90
+  MGJURLTokenGenerator: d2c554395b4929abc4fefa11e9855edf4d710264
+  MGJUser: 7609baa2ef349d2e7c29bd2e708e48430ed86d8f
+  MGJVendors: cf09ec861d0d2f920903e80247efdb7f33e2e407
+  MGJVendorsWrapper: 8a1b0f05de3df60370fc41054d0f4764acc02bf0
+  MGJVideoPlayer: 7f8ad1206769c62ea702d6dc4de3470dcf7dde5a
+  MGJZipArchive: b9a9912b887aa891cf1b13d3616eac9c74c4e414
+  MJRefresh: ddb0fc673d9cae70b7aea5713d022351f75cbaba
+  MLSActivityPopupComponent: f67864e4092cc08362231f9bdd5682d0ef9aa9bd
+  MLSAddress: bf8af09ff8c82352a0dd33cdb35b74a53795eadb
+  MLSBoardComponent: 01fffe09bcbb41587f87abe42be8781729115203
+  MLSConfig: ac6b0b3319e861ae5f9d35cdbc8af0e88d0064ca
+  MLSContent: 5d68f0f4c31c5aab25aa723ca6855fe768324601
+  MLSDailyMail: 8e357607ea3f449d15deae717ba5cc44ad283bdf
+  MLSDebug: 62286a7f8eb5e705938b5f92f00622d623ad7753
+  MLSDebugComponent: e6cf6ce690b440e602bb1b956f9355d56392d2b6
+  MLSDetail: 3d2930f716b48ee4eab294a65c27d085158b08d0
+  MLSDetailFoundation: eb81e0ecbbd49e719f14b11d22f892c174e10fb6
+  MLSEnterHomeNotificationMiddleWareComponent: 860179e6d81d98350e6a9c3651ba33463526cef3
+  MLSFunctionViewKit: bb0a0e8c30a9d901066e0b73c43dc7392a23b9fb
+  MLSHomePage: 1b45a0587b27d2970434ac4b1c353f5225bf00cb
+  MLSHWHome: 649acbb8608d1f8cbb97790f44f1c3b75bef0f61
+  MLSIM: 9836f604d8bbb5ce31ddb9eca49ca35e59fd0318
+  MLSLogin: 730e18931d7a84ba0c744ffddb0c5f34cd116eca
+  MLSMe: f3a87e69aae944881ca3868f4c99c5a53bffee73
+  MLSOutsideDetail: a8a5c39241fcdaa4ac85057dd0a1160784896e31
+  MLSPFSDK: 912374dd13c4b05675effd8b29f4f46287ac1f7d
+  MLSPhotoCameraPicker: e5deecbf78f7f3df5c0d5192af14a29a4a7e52f3
+  MLSPopupComponent: 5ab4633daea3e2e58d352c4341ff0b4c127180f4
+  MLSPopupController: 013f4b8038b100e55784327bb9c18772ec1552ee
+  MLSPublish: 800ace583c16a7631c3a9cb27a441b045af7b870
+  MLSSDK: 330bc33cdb6432fa1fb0334d48432377e85e85f3
+  MLSSearch: 3af81320062e8eae293e54b595f5945133f0d300
+  MLSShare: 5012402da6041b24510a5f067aa8f27d0176e1dd
+  MLSShop: afdf9165bda4aebea609bfe458386a57bdb3f360
+  MLSSKU: 0968c2f67c93d59c5e0b05ff09fc7c0fc582c7fc
+  MLSSplashComponent: 6fb72d3f9e94c4d0c614aa128359b68fd05c4706
+  MLSTopicTag: 3503793f282ac92bd725553ac825c2e7c6fcc2c5
+  MLSTrade: 534d1468ab2840db1468ad38b5d755966c8cbc82
+  MLSTradeFoundation: 4443cc49866e40b975a124787a39507b5f97c2d7
+  MLSUIKit: e04060d98cb4780ec1525991d89e44983a008c73
+  MLSUpdateComponent: ffa6a2ee798e58c641cb8afd079f5116ed869d8b
+  MLSUser: 066da43f6aca66dc4a109e3b43358fbb1c377362
+  MLSUserGuide: a83eee1788b1422ac3f65e69287de3ef23f42c8f
+  MLSWaterFlow: aeb19b27a074d1e45b878335c00a142a6830373d
+  MLSWebContainer: 7741a64db370629e63a99e8df58d6b1f8680c4a7
+  MLSWelcomeComponent: 22cefdeaace8e057612fd5af01f8a00a555032e3
+  ModuleManager: 6bd380dd08076fcc5987fba9fd60059e6173454e
+  ModulePredefinedEvent-MGJLOGIN: 18b1295164bc82501c793553c12199ff329febf7
+  ModulePredefinedEvent-MGJPF: fc7c476fb7dcd42b3ffc00f6a9a58039f9d63aa4
+  ModulePredefinedEvent-MLSEXTERNAL: 04a41d5a0b3a6be5df0188d5da91fa4f8a381a8e
+  ModulePredefinedEvent-MLSIM: d2e32ed0244855a69d79fdabc80ac1e5fa92a50d
+  ModulePredefinedEvent-MLSSEARCH: 5f0860e19223cf8ba43d61ea226ea0c92d8400cb
+  ModulePredefinedEvent-MLSSHOP: 3d13cb5d89bd3864e12bd09c5e40644b578d74ef
+  ModulePredefinedEvent-WEB: 2726bac7e823303a60d225431e36bcefed3a725b
+  ModulePredefinedPage-MGJPF: 7aa89f3709124d44438dee8d1af2daa66c0874f5
+  MPMessagePack: c8ffc421f542545392ba3dd42be2bae5fc6df48c
+  MWP-SDK-iOS: 14dacd40a9fd240e41889736cf15586738e946cf
+  MWPAdapter: f3470365bb8b3be7e2ffd7b94f45e13d865e3aef
+  OAStackView: a05adfec3669a5187b968a8c0a2690ae517271b6
+  Objective-LevelDB: 0164b7cd368a00c7b1faff9ef4ea1280bbe3ea78
+  OpenSSL-Universal: 8ccb3c5d9c654459dd8acaad42a39510ea3605cb
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  PLCrashReporter: 2fe4fa674baed46da67fd719dca0ba99496736b5
+  PredefinedEvent-MGJ: 98183f31f180548b3dce21f805da2c078f789143
+  predefinedevent-mgjpf: c1adc62290f548b212681c884ed1857dea29ea39
+  ProtocolBuffers: d088180c10072b3d24a9939a6314b7b9bcc2340b
+  SDWebImage: b4f0d51b23b08e6fec8e5cdc973bde84ef305e9e
+  SmsPlugin4IOS: 37090d764902ec07fe3b55bdef47f792b1d878e0
+  SQLCipher: 8a9903fe7380ef095ebf2cf4ac31dc4518313d8e
+  SSKeychain: 96d5ede395f8d7f42fd7a7134119609fef22f1e7
+  SwipeView: 173f0d063a44b685aefd2a51696d05e77b656406
+  TMCache: b0946bef0a2cad0a19d489a83184626af2281022
+  TPKeyboardAvoiding: 0b38406698ce83000452ac7f6f4f81942617392d
+  TTTAttributedLabel: 685718a377906793ee4a247b99dd1147ad1eea8d
+  UITableView+FDTemplateLayoutCell: 43a5ff71f72a4ff163aca315b2f8e4583db88238
+  URLHelper: c2e04ae49f5ae2afdeb551facab5374b9468841c
+  WTPipelineForOC: 58087e545c19299e271d9e97a07c7a802b1d0078
+  XCore: 54f75aee644cc95680a175f2a80ab85eeccaea14
+  YYText: ac09660c9ccd9b817f409a20caa6f5587444d2ae
+  ZXingObjC: 8a29ef6cf006d9c87078e18e6b545d78a1ead282
+
+PODFILE CHECKSUM: c8ba4b40c8c09a39154c648b039b2fdb13634d3f
+
+COCOAPODS: 1.0.1
