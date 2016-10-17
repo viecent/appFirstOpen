@@ -18,9 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"js_call_oc";
-    _web = [[UIWebView alloc]initWithFrame:self.view.bounds];
+    _web = [[UIWebView alloc] initWithFrame:self.view.bounds];
     _web.delegate = self;
-    NSString * path = [[NSBundle mainBundle]pathForResource:@"Index" ofType:@"html"];
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"Index" ofType:@"html"];
     NSURL * urll = [NSURL fileURLWithPath:path isDirectory:NO];
     //NSURL * url = [NSURL URLWithString:@"http://www.baidu.com"];
     NSURLRequest * req = [NSURLRequest requestWithURL:urll];
